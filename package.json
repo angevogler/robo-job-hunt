@@ -1,0 +1,15 @@
+{
+  "name": "robo-job-hunt",
+  "version": "1.0.0",
+  "description": "Today we're creating a user directory for a robot job hunting site. You should create an Express app that serves a page that looks like the screenshot below. Your CSS should be in a file in the /public/ directory and be served through Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mustache-express": "^1.2.5"
+  }
+}
