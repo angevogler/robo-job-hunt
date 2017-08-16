@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+  </head>
+
+  <body>
+    <h1>Robots for Hire</h1>
+    <div class="profile">
+      {{ #users }}
+      <img src={{ avatar }}>
+      <h3 class="name"> {{ name }} </h3>
+      <p class="job-title"> {{ job }} {{ company }} </p>
+      {{ /users }}
+    </div>
+  </body>
+</html>
